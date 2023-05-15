@@ -32,6 +32,7 @@ private float indexValue, thumbValue, threeFingersValue;
     void Update()
     {
         AnimateHand();
+        Debug.Log(threeFingersValue);
     }
 
     InputDevice GetInputDevice() 

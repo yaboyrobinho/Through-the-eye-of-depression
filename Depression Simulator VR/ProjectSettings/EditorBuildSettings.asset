@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Story - Positive.unity
+    guid: 4a843a4fb8a30cc43a0a4ee4762c7903
+  - enabled: 1
+    path: Assets/Scenes/Story - Neutral.unity
+    guid: 89860e4f5a1d03049bdeaab294c8d0c7
+  - enabled: 1
+    path: Assets/Scenes/Story - Depressed.unity
+    guid: 1bdf8cd3ca9b016488211780abd35de4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: da12a61d784becc44ad14c11edb36d16, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 48a5c534b0c2a8e4597984ab780ed8f4, type: 2}
