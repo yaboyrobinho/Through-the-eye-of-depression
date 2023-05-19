@@ -370,8 +370,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.69
-  m_Range: 9.37
+  m_Intensity: 0.7
+  m_Range: 22.18
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -412,7 +412,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 18.47
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -997,7 +997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1354486616487934915, guid: c299c14f24b08d94ab48036d93067c85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.938
+      value: -0.941
       objectReference: {fileID: 0}
     - target: {fileID: 1354486616487934915, guid: c299c14f24b08d94ab48036d93067c85, type: 3}
       propertyPath: m_LocalPosition.z
