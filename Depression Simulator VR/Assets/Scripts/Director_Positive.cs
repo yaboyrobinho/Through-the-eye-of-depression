@@ -15,7 +15,7 @@ public class Director_Positive : MonoBehaviour
     computerIsGrabbed = false, 
     bedIsGrabbed = false;
 
-    [SerializeField] int interactionCount = 0;
+    public int interactionCount = 0;
 
 
 

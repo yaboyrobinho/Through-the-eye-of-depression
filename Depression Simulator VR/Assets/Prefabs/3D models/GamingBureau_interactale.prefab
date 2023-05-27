@@ -95,8 +95,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.005814312, y: 0.015225957, z: 0.007556009}
-  m_Center: {x: 0.00018045306, y: 0.00014327577, z: -0.0007511175}
+  m_Size: {x: 0.005814312, y: 0.015225957, z: 0.007657085}
+  m_Center: {x: 0.00018045306, y: 0.00014327579, z: -0.0007005799}
 --- !u!1 &1938292456236590254
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +630,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -5.477
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b00e6518a4d68984ea372977ecc36c50, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb2102884f03ebf4c88d166491264ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: b00e6518a4d68984ea372977ecc36c50, type: 3}
       propertyPath: m_Name
       value: GamingScherm 1
@@ -728,7 +732,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6496866864368427827}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.014804619, y: 0.0057153157, z: 0.0013297345}
@@ -748,6 +752,7 @@ MonoBehaviour:
   director: {fileID: 0}
   destroy: {fileID: 1938292456236590254}
   positive: {fileID: 0}
+  neutraal: {fileID: 0}
 --- !u!1001 &6262510558735938124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -799,6 +804,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 6.615
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b00e6518a4d68984ea372977ecc36c50, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb2102884f03ebf4c88d166491264ddd, type: 2}
     - target: {fileID: 919132149155446097, guid: b00e6518a4d68984ea372977ecc36c50, type: 3}
       propertyPath: m_Name
       value: GamingScherm 2
@@ -897,7 +906,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6496866863329689025}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.002513424, y: 0.0031751741, z: 0.001306884}
@@ -917,3 +926,4 @@ MonoBehaviour:
   director: {fileID: 0}
   destroy: {fileID: 1938292456236590254}
   positive: {fileID: 0}
+  neutraal: {fileID: 0}

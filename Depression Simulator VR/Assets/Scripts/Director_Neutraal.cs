@@ -16,7 +16,7 @@ public class Director_Neutraal : MonoBehaviour
     bedIsGrabbed = false,
     medicijnIsGrabbed = false;
 
-    [SerializeField] int interactionCount = 0;
+    public int interactionCount = 0;
 
 
     void Awake()

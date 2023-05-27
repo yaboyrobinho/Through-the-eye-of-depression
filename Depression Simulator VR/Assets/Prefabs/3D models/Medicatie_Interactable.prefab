@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8054197169412952945}
   - component: {fileID: 7135716624308578786}
   m_Layer: 0
-  m_Name: Medicatie_Interactable 1
+  m_Name: Medicatie_Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
