@@ -11,7 +11,7 @@ public class OnTriggerEnter_Interaction : MonoBehaviour
     [SerializeField] GameObject destroy;
     public Director_Positive positive;
     public Director_Neutraal neutraal;
-    // public Ditector_Depresive depressief:
+    public Director_Depressief depressief;
 
     private Scene scene;
 
@@ -51,7 +51,7 @@ public class OnTriggerEnter_Interaction : MonoBehaviour
                     }
                     else if (scene.name == "Story - Depressed")
                     {
-                        // depressief.PlayComputer();
+                        depressief.PlayComputer();
                     }
                 }
         }

@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8963519703204119716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8963519703204119719}
+  - component: {fileID: 8963519703204119705}
+  - component: {fileID: 8963519703204119718}
+  - component: {fileID: 8963519703204119704}
+  m_Layer: 0
+  m_Name: SceneDirector_Positief
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8963519703204119719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963519703204119716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.0244672, y: 0.5698619, z: 1.0616102}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &8963519703204119705
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963519703204119716}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 3ed5f9493b4ea3e49b5e87660c8a976a, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1904364133536927683, guid: 3ed5f9493b4ea3e49b5e87660c8a976a, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!114 &8963519703204119718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963519703204119716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb38610c2031aec438a9d183df9506bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  director: {fileID: 8963519703204119705}
+  playable:
+  - {fileID: 11400000, guid: 3ed5f9493b4ea3e49b5e87660c8a976a, type: 2}
+  - {fileID: 11400000, guid: 4042223f71bd4b2488cf92e74e6917d5, type: 2}
+  - {fileID: 11400000, guid: 2db32119b97d0a14889aebb04cfb0189, type: 2}
+  - {fileID: 11400000, guid: b95cfa1de186fb14688a7bfb5a3b8e97, type: 2}
+  - {fileID: 11400000, guid: 0b8ef73fe31b1f643b72d60b131e9940, type: 2}
+  - {fileID: 11400000, guid: c74873e2580e1a7428c5febb4b17be9b, type: 2}
+  - {fileID: 11400000, guid: 6f9eb89d5a8cf7c47985ffbf823af73d, type: 2}
+  voetbalIsGrabbed: 0
+  guitarIsGrabbed: 0
+  fotolijstjeIsGrabbed: 0
+  computerIsGrabbed: 0
+  bedIsGrabbed: 0
+  interactionCount: 0
+--- !u!114 &8963519703204119704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963519703204119716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 69484e3e93f32e64196b94611d588e4a, type: 2}
+    - {fileID: 11400000, guid: 0f1eed5945905c2458d445e5b6e38dda, type: 2}
+    - {fileID: 11400000, guid: ac8b0eef303bf7f42b17af75eba545d0, type: 2}
+    - {fileID: 11400000, guid: 2d65df86f801fe5459f6320d0be71bcf, type: 2}
+    - {fileID: 11400000, guid: 1ca71153c9f2e6f4cbe577708226a4d4, type: 2}
+    - {fileID: 11400000, guid: 01d96d1cffb8cd242a62a5999ce0e6e9, type: 2}
+    - {fileID: 11400000, guid: 8ce2c79ce1cb1ff4fa515858c68adc25, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: VoetbalIsGrabbed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: InteractionCounter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: InteractionCountChecker
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: BedIsGrabbed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: ComputerIsGrabbed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: GuitarIsGrabbed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8963519703204119718}
+          m_TargetAssemblyTypeName: Director_Positive, Assembly-CSharp
+          m_MethodName: FotolijstjeIsGrabbed
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

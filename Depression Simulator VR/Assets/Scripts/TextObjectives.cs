@@ -13,6 +13,7 @@ public class TextObjectives : MonoBehaviour
     private Scene scene;
     public Director_Positive positive;
     public Director_Neutraal neutraal;
+    public Director_Depressief depressief;
 
     // Start is called before the first frame update
     void Start()
@@ -32,10 +33,10 @@ public class TextObjectives : MonoBehaviour
         {
             objective.text = "Interacteer met de verhaalsvoorwerpen (" + interactionTotal + "/" + neutraal.interactionCount + ")";
         }
-        // else if (scene.name == "Story - Depressed")
-        // {
-        //     // depressief.PlayBed();
-        // }
+        else if (scene.name == "Story - Depressed")
+        {
+            objective.text = "Interacteer met de verhaalsvoorwerpen (" + interactionTotal + "/" + depressief.interactionCount + ")";
+        }
         
     }
 }
