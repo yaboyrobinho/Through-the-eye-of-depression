@@ -35,7 +35,7 @@ public class OnTriggerEnter_Interaction : MonoBehaviour
                         neutraal.PlayBed();
                     } else if (scene.name == "Story - Depressed")
                     {
-                        // depressief.PlayBed();
+                        depressief.PlayBed();
                     }
                 }
 

@@ -517,7 +517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &313339906
 Light:
   m_ObjectHideFlags: 0
@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -1976,11 +1976,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4875187317849454509, guid: e833b10a1f07adc4c8c7ac39ab2ada02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0678855
+      value: -1.068
       objectReference: {fileID: 0}
     - target: {fileID: 4875187317849454509, guid: e833b10a1f07adc4c8c7ac39ab2ada02, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.013230592
+      value: -0.046
       objectReference: {fileID: 0}
     - target: {fileID: 4875187317849454509, guid: e833b10a1f07adc4c8c7ac39ab2ada02, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2066,6 +2066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voetbal_Interactable
       objectReference: {fileID: 0}
+    - target: {fileID: 6044685937608756418, guid: e833b10a1f07adc4c8c7ac39ab2ada02, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5252311682672733462, guid: e833b10a1f07adc4c8c7ac39ab2ada02, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e833b10a1f07adc4c8c7ac39ab2ada02, type: 3}
@@ -2081,6 +2085,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3106363038362741022}
     m_Modifications:
+    - target: {fileID: 903140170818454272, guid: a75e9db6cf732304db03534483963f62, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 903140170818454274, guid: a75e9db6cf732304db03534483963f62, type: 3}
       propertyPath: lookPoint
       value: 
@@ -2399,6 +2407,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: eb2102884f03ebf4c88d166491264ddd, type: 2}
+    - target: {fileID: 5864339074083181991, guid: dd936b46b54a3d9438606312e7607259, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1384
+      objectReference: {fileID: 0}
+    - target: {fileID: 5864339074845644848, guid: dd936b46b54a3d9438606312e7607259, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1352
+      objectReference: {fileID: 0}
     - target: {fileID: 6991837869101833460, guid: dd936b46b54a3d9438606312e7607259, type: 3}
       propertyPath: m_RootOrder
       value: 2
