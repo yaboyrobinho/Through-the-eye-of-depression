@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1520067532716397217}
   - component: {fileID: 7096852909236149855}
   - component: {fileID: 1175813000942553680}
+  - component: {fileID: 3019240560860516815}
+  - component: {fileID: 5502019328395721296}
   m_Layer: 0
   m_Name: BureauFrame
   m_TagString: Untagged
@@ -95,8 +97,34 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.005814312, y: 0.015225957, z: 0.007657085}
-  m_Center: {x: 0.00018045306, y: 0.00014327579, z: -0.0007005799}
+  m_Size: {x: 0.0066189473, y: 0.015225957, z: 0.0003476465}
+  m_Center: {x: -0.00022186067, y: 0.00014327605, z: 0.002980956}
+--- !u!65 &3019240560860516815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175813000942553683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.006600002, y: 0.0045400956, z: 0.0002658293}
+  m_Center: {x: -0.00021238587, y: 0.005486188, z: -0.0021911059}
+--- !u!65 &5502019328395721296
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175813000942553683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0051347576, y: 0.015225961, z: 0.0008181972}
+  m_Center: {x: 0.0005202409, y: 0.00014327612, z: -0.0043077664}
 --- !u!1 &1938292456236590254
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +781,7 @@ MonoBehaviour:
   destroy: {fileID: 1938292456236590254}
   positive: {fileID: 0}
   neutraal: {fileID: 0}
+  depressief: {fileID: 0}
 --- !u!1001 &6262510558735938124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -927,3 +956,4 @@ MonoBehaviour:
   destroy: {fileID: 1938292456236590254}
   positive: {fileID: 0}
   neutraal: {fileID: 0}
+  depressief: {fileID: 0}

@@ -13,7 +13,8 @@ public class Director_Positive : MonoBehaviour
     guitarIsGrabbed = false,  
     fotolijstjeIsGrabbed = false, 
     computerIsGrabbed = false, 
-    bedIsGrabbed = false;
+    bedIsGrabbed = false,
+    timelineStarted = false;
 
     public int interactionCount = 0;
 
@@ -23,6 +24,8 @@ public class Director_Positive : MonoBehaviour
     void Awake()
     {
             director.Play(playable[0]);
+
+
     }
 
     void Update() {
@@ -31,41 +34,51 @@ public class Director_Positive : MonoBehaviour
 
     public void PlayVoetbal()
     {
-        if (voetbalIsGrabbed == false)
-        {
-            director.Play(playable[1]);
+        if (timelineStarted == false){
+            if (voetbalIsGrabbed == false)
+            {
+                director.Play(playable[1]);
+            }
         }
     }
 
     public void PlayGitaar()
     {
-        if (guitarIsGrabbed == false)
-        {
-            director.Play(playable[2]);
+        if (timelineStarted == false){
+            if (guitarIsGrabbed == false)
+            {
+                director.Play(playable[2]);
+            }
         }
     }
 
     public void PlayFotolijstje()
     {
-        if (fotolijstjeIsGrabbed == false)
-        {
-            director.Play(playable[3]);
+        if (timelineStarted == false){
+            if (fotolijstjeIsGrabbed == false)
+            {
+                director.Play(playable[3]);
+            }
         }
     }
 
     public void PlayComputer()
     {
-        if (computerIsGrabbed == false) 
-        {
-            director.Play(playable[4]);
+        if (timelineStarted == false){
+            if (computerIsGrabbed == false) 
+            {
+                director.Play(playable[4]);
+            }
         }
     }
 
     public void PlayBed()
     {
-        if (bedIsGrabbed == false)
-        {
-            director.Play(playable[5]);
+        if (timelineStarted == false){
+            if (bedIsGrabbed == false)
+            {
+                director.Play(playable[5]);
+            }
         }
     }
 
@@ -108,6 +121,15 @@ public class Director_Positive : MonoBehaviour
         if (interactionCount == 5) {
             PlayEnd();
         }
+    }
+
+    public void TimelinePlaying(){
+        timelineStarted = true;
+    }
+
+    public void TimelineStopped()
+    {
+        timelineStarted = false;
     }
 
 }

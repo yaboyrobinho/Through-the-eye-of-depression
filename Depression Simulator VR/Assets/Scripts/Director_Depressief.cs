@@ -12,7 +12,8 @@ public class Director_Depressief : MonoBehaviour
     public bool fotolijstjeIsGrabbed = false,
     computerIsGrabbed = false,
     bedIsGrabbed = false,
-    medicijnIsGrabbed = false;
+    medicijnIsGrabbed = false,
+    timelineStarted = false;
 
     public int interactionCount = 0;
 
@@ -30,32 +31,40 @@ public class Director_Depressief : MonoBehaviour
 
     public void PlayFotolijstje()
     {
-        if (fotolijstjeIsGrabbed == false)
-        {
-            director.Play(playable[1]);
+        if (timelineStarted == false){
+            if (fotolijstjeIsGrabbed == false)
+            {
+                director.Play(playable[1]);
+            }
         }
     }
 
     public void PlayComputer()
     {
-        if (computerIsGrabbed == false)
-        {
-            director.Play(playable[2]);
+        if (timelineStarted == false){
+            if (computerIsGrabbed == false)
+            {
+                director.Play(playable[2]);
+            }
         }
     }
 
     public void PlayBed()
     {
-        if (bedIsGrabbed == false)
-        {
-            director.Play(playable[3]);
+        if (timelineStarted == false){
+            if (bedIsGrabbed == false)
+            {
+                director.Play(playable[3]);
+            }
         }
     }
 
     public void PlayMedicatie()
     {
-        if (medicijnIsGrabbed == false){
-            director.Play(playable[4]);
+        if (timelineStarted == false){
+            if (medicijnIsGrabbed == false){
+                director.Play(playable[4]);
+            }
         }
     }
 
@@ -96,6 +105,16 @@ public class Director_Depressief : MonoBehaviour
         {
             PlayEnd();
         }
+    }
+
+    public void TimelinePlaying()
+    {
+        timelineStarted = true;
+    }
+
+    public void TimelineStopped()
+    {
+        timelineStarted = false;
     }
 
     

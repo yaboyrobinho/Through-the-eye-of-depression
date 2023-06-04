@@ -9,9 +9,11 @@ public class RemoveGrabIcon : MonoBehaviour
     public void DestroyIcon() {
 
 
-        while (transform.childCount > 0) {
-            if(transform.GetChild(0).gameObject.tag == "icon")
+        foreach (Transform childTransform in this.transform){
+            if(childTransform.tag == "Icon"){
+            // DestroyImmediate(transform.GetChild(0).gameObject);
             DestroyImmediate(transform.GetChild(0).gameObject);
+        }
         }
     }
     
