@@ -336,6 +336,7 @@ MonoBehaviour:
   deur: {fileID: 1714511974191400908}
   cloudySky: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
   director: {fileID: 6874167119322980604}
+  positiveMessage: {fileID: 11400000, guid: 08483e211f725be479aadf400e110174, type: 2}
 --- !u!1 &220198227
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +656,10 @@ PrefabInstance:
       propertyPath: interactionTotal
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1929844283, guid: 621981cd71f833f4592afb6b3f1ad2b0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7867994624614057757, guid: 621981cd71f833f4592afb6b3f1ad2b0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -702,6 +707,10 @@ PrefabInstance:
     - target: {fileID: 7867994624614057759, guid: 621981cd71f833f4592afb6b3f1ad2b0, type: 3}
       propertyPath: m_Name
       value: XR Origin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587402983056334339, guid: 621981cd71f833f4592afb6b3f1ad2b0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621981cd71f833f4592afb6b3f1ad2b0, type: 3}
@@ -3983,6 +3992,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2d65df86f801fe5459f6320d0be71bcf, type: 2}
     - {fileID: 11400000, guid: 954028c42c4ecd64c95e85950bc8e4f4, type: 2}
     - {fileID: 11400000, guid: c5c6d2354e6660041b1d044719af6ebe, type: 2}
+    - {fileID: 11400000, guid: b6c139bcee98c9e4dbe57d5570360bff, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -4087,6 +4097,20 @@ MonoBehaviour:
         - m_Target: {fileID: 6874167119322980606}
           m_TargetAssemblyTypeName: Director_Depressief, Assembly-CSharp
           m_MethodName: TimelineStopped
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6874167119322980606}
+          m_TargetAssemblyTypeName: Director_Depressief, Assembly-CSharp
+          m_MethodName: StopApplication
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

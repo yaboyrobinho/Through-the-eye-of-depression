@@ -117,6 +117,10 @@ public class Director_Depressief : MonoBehaviour
         timelineStarted = false;
     }
 
+    public void StopApplication() {
+        Application.Quit();
+    }
+
     
 
 

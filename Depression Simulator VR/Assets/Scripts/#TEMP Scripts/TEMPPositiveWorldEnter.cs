@@ -14,7 +14,7 @@ public class TEMPPositiveWorldEnter : MonoBehaviour
     [SerializeField] Material cloudySky;
 
     public PlayableDirector director;
-    // public PlayableAsset Posiive;
+    public PlayableAsset positiveMessage;
 
 
     void OnTriggerEnter(Collider other) 
@@ -27,6 +27,7 @@ public class TEMPPositiveWorldEnter : MonoBehaviour
             deur.SetActive(false);
 
             RenderSettings.skybox = cloudySky;
+            director.Play(positiveMessage);
 
         }    
     }

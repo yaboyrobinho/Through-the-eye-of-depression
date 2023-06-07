@@ -56,6 +56,14 @@ public class OnTriggerEnter_Interaction : MonoBehaviour
                     {
                         depressief.PlayComputer();
                     }
+
+                }
+
+                if (gameObject.name == "FootbalStand")
+                {
+
+                    neutraal.PlayVoetbal();
+                
                 }
         }
     }

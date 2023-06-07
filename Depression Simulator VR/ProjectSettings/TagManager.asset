@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PlayerHand
   - Icon
+  - Active
+  - Passive
   layers:
   - Default
   - TransparentFX
