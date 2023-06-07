@@ -134,6 +134,14 @@ PrefabInstance:
       propertyPath: lookPoint
       value: 
       objectReference: {fileID: 1051668873}
+    - target: {fileID: 3921516795722492645, guid: c299c14f24b08d94ab48036d93067c85, type: 3}
+      propertyPath: director
+      value: 
+      objectReference: {fileID: 3354008365664842660}
+    - target: {fileID: 3921516795722492645, guid: c299c14f24b08d94ab48036d93067c85, type: 3}
+      propertyPath: neutraal
+      value: 
+      objectReference: {fileID: 3354008365664842661}
     - target: {fileID: 6006982872043330146, guid: c299c14f24b08d94ab48036d93067c85, type: 3}
       propertyPath: m_Name
       value: Bed_Interactable

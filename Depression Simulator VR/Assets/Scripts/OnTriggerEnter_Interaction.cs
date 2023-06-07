@@ -22,6 +22,8 @@ public class OnTriggerEnter_Interaction : MonoBehaviour
     }
 
     void OnTriggerEnter (Collider other) {
+
+        // Debug.Log("ff proberen hoor!");
         if (other.gameObject.tag.Equals("PlayerHand")) {
                 Destroy(destroy);
 
@@ -30,6 +32,7 @@ public class OnTriggerEnter_Interaction : MonoBehaviour
                     if(scene.name == "Story - Positive") 
                     {
                         positive.PlayBed();
+                        
                     } else if (scene.name == "Story - Neutral")
                     {
                         neutraal.PlayBed();
